@@ -88,7 +88,7 @@
 					<nav class="main_nav">
 						<ul class="d-flex flex-row align-items-start justify-content-start">
 							<li class="active"><a href="#">Inicio</a></li>
-							<li><a href="#">ProductosAxharid</a></li>
+							<li><a href="#">Productos</a></li>
 							<li><a href="#">Galeria</a></li>					
 							<li><a href="#">Quienes Somos</a></li>
 							<li><a href="#">Noticias</a></li>
