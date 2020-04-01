@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-<title>@yield('titulo')</title>
+<title>Frutexco</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Jhonatan Shop template">
@@ -43,9 +43,12 @@
 			<!-- Navigation -->
 			<div class="menu_nav">
 				<ul>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Men</a></li>
-					<li><a href="#">Kids</a></li>
+				
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Galeria</a></li>					
+					<li><a href="#">Quienes Somos</a></li>
+					<li><a href="#">Noticias</a></li>
 					
 				</ul>
 			</div>
@@ -76,17 +79,19 @@
 					<div class="logo">
 						<a href="#">
 							<div class="d-flex flex-row align-items-center justify-content-start">
-								<div><img src="http://127.0.0.1:8000/asset/images/logo_1.png" alt=""></div>
-								<div>Jhonatan Shop</div>
+								<div><img src="http://127.0.0.1:8000/asset/images/frutexco2.png" alt=""></div>
+								
 							</div>
 						</a>	
 					</div>
 					<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 					<nav class="main_nav">
 						<ul class="d-flex flex-row align-items-start justify-content-start">
-							<li class="active"><a href="#">Women</a></li>
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Kids</a></li>					
+							<li class="active"><a href="#">Inicio</a></li>
+							<li><a href="#">Productos</a></li>
+							<li><a href="#">Galeria</a></li>					
+							<li><a href="#">Quienes Somos</a></li>
+							<li><a href="#">Noticias</a></li>
 						</ul>
 					</nav>
 					<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
@@ -133,13 +138,15 @@
 										<div class="footer_logo">
 											<a href="#">
 												<div class="d-flex flex-row align-items-center justify-content-start">
-													<div class="footer_logo_icon"><img src="http://127.0.0.1:8000/asset/images/logo_2.png" alt=""></div>
-													<div>Jhonatan Shop</div>
+													<div class="footer_logo_icon"><img src="http://127.0.0.1:8000/asset/images/frutexco1.png" alt=""></div>
+													
 												</div>
 											</a>		
 										</div>
 										<div class="footer_about_text">
-											<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod.</p>
+											<p>Somos una empresa especializada en fruta fresca en el sector agroalimentario en Colombia, agricultura y calidad asegurada.
+
+Nuestro equipo tiene más de 12 años de experiencia en exportación de productos perecederos</p>
 										</div>
 									</div>
 								</div>
@@ -197,16 +204,14 @@
 							<div class="row">
 								<div class="col">
 									<div class="footer_bar_content d-flex flex-md-row flex-column align-items-center justify-content-start">
-										<div class="copyright order-md-1 order-2"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+										<div class="copyright order-md-1 order-2">Creada por John Jairo Medina Silva,Daniel Alvarez Barrios,Henry Osman Vega Rios</div>
 										<nav class="footer_nav ml-md-auto order-md-2 order-1">
 											<ul class="d-flex flex-row align-items-center justify-content-start">
-												<li><a href="category.html">Women</a></li>
-												<li><a href="category.html">Men</a></li>
-												<li><a href="category.html">Kids</a></li>
-												<li><a href="category.html">Otra categoria</a></li>
-												<li><a href="#">Contact</a></li>
+											<li><a href="#">Inicio</a></li>
+											<li><a href="#">Productos</a></li>
+											<li><a href="#">Galeria</a></li>					
+											<li><a href="#">Quienes Somos</a></li>
+											<li><a href="#">Noticias</a></li>
 											</ul>
 										</nav>
 									</div>
